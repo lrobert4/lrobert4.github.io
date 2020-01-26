@@ -1,0 +1,125 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    background-color: #555;
+    
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+nav li {
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    color: #fff;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+/* First Section in Main Element */
+
+h1.welcome {
+    text-align: left;
+    font-weight: bold;
+    font-size: 6em;
+    color: #fff;
+    padding-left: 20px;
+    padding-top: 20px;
+    
+}
+
+.parent {
+    display: grid;
+    grid-template-rows: fit-content(100%);
+    grid-template-columns: 1fr 1fr;
+    overflow: hidden;
+    
+
+}
+
+
+.intro-text {
+    background-color: #1f4954;
+    
+}
+
+
+.intro-text p {
+    color: #ffffff;
+    font-weight: 300;
+    padding-left: 20px;
+}
+
+.intro-text span {
+    padding-left: 20px;
+    
+}
+
+.intro-text img {
+    margin-top: 40px;
+}
+
+p.email {
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+
+/* END of First Section in Main Element */
+
+
+/* Second Section in Main Element */
+
+.portfolio-gallery {
+    
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr) );
+  grid-auto-rows: minmax(300px, auto);
+} 
+
+.row-one {
+  background-color: #444;
+  color: #fff;
+  
+  
+}
+
+.row-two {
+  background-color: #444;
+  color: #fff; 
+  
+  }
+
+
+  /* END of Second Section in Main Element */
+
+
+  /* Footer Styles */
+
+  footer {
+   background-color: #000;
+
+
+  }
+
+  footer p {
+   text-align: center;
+   font-weight: 300;
+   color: #fff;
+  }
+
+  /* END of Footer Styles */
